@@ -1,0 +1,165 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+#background{
+    padding: 10px 25px;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+.navbar{
+    font-family: sans-serif;
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #141414;
+    border: 2px solid #1aaca2;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.logo-image img{
+    width: 35%;
+    height: 35%;
+
+}
+
+.meun a{
+    color: white;
+    text-decoration: none;
+    padding: 1px 10px;
+    font-size: 18px;
+    
+}
+
+.contact-button a{
+    color: #1aaca2;
+    text-decoration: none;
+    padding: 1px 10px;
+    font-size: 18px;
+    border: 2px solid   #1aaca2;
+    border-radius: 8px;
+}
+
+.explore-para{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.projects-para{
+    color: white;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.two-button{
+    display: flex;         
+    justify-content: center; 
+    align-items: center;     
+    height: 100px; 
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}
+
+.two-button a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid  #1aaca2;
+    border-radius: 50px;
+    padding: 12px 16px;
+    margin: 5px 4px;
+    
+    display: inline-block;
+}
+
+.first-button{
+    display: inline-block;
+    background-color: #1aaca2;
+}
+
+.four-buttons{
+    display: flex;         
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.four-buttons a{
+   
+   color: white;
+   text-decoration: none;
+}
+
+.button-one{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #1aaca2;
+    color: white;
+    font-size: 19px;
+    padding: 7px 10px;
+    margin-right: 2px;
+}
+
+.button-three,
+.button-two{
+    background-color: white;
+    color: #1aaca2 !important;
+    font-size: 19px;
+    padding: 7px 10px;
+    margin-right: 2px;
+}
+
+.button-four{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    color: #1aaca2 !important;
+    font-size: 19px;
+    padding: 7px 10px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50vh 50vh;
+}
+
+.whatado{
+    background-color: #7E478B;
+    margin: 5px 10px;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Kitab{
+    background-color: #50B2BE;
+    margin: 5px 10px;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.first-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #141414;
+    color: white;
+    border-bottom: 1px solid grey;
+    padding: 24px 20px;
+}
+
+  
